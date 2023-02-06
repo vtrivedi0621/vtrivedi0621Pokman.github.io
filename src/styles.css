@@ -3,14 +3,8 @@
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    flex-direction: column;
 }
-
-/* .form {
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-} */
 
 body {
     margin: 0%;
@@ -50,4 +44,20 @@ body {
 
 .Title button:hover{
     cursor: pointer;
+}
+
+.DisplaySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DisplaySection h3,h4{
+    margin: 5px;
+
+}
+
+.DisplaySection img{
+    width: 200px;
+    
 }
